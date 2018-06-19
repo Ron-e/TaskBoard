@@ -145,7 +145,7 @@ function ($scope, $routeParams, $location, $interval, $window,
             });
         };
     $scope.loadBoards();
-    $scope.boardInterval = $interval($scope.loadBoards, 10000);
+    $scope.boardInterval = $interval($scope.loadBoards, 60000);
     $scope.$on('$destroy', function () { $interval.cancel($scope.boardInterval); });
 
     $scope.updateBoards = function(data) {
