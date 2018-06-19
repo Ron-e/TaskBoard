@@ -343,7 +343,7 @@ span.fa {
 
 /* #ViewItem */
 .itemViewModal .modal-dialog {
-    width: 700px;
+    width: 95%;
 }
 .itemViewModal .modal-content, .view-item-details {
     overflow: hidden;
