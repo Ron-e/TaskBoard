@@ -80,5 +80,19 @@
         <script src="js/directives/onLoadCallback.js"></script>
         <script src="js/directives/fileUpload.js"></script>
         <script src="js/directives/focus.js"></script>
+        <script>
+		$("body").on('click', "#MdiscS", function(){ 
+			$('#Mdisc').val('#### Adres: \n\
+#### Opdrachtgaver: \n\
+\n\
+- Contactpersoon: \n\
+- Tel: \n\
+\n\
+> tekst van de email gequote.');
+		});
+		$("body").on('click', "#MdiscP", function(){ 
+			$('#Mdisc').val('no template jet.');
+		});
+		</script>
     </body>
 </html>
